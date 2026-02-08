@@ -1,0 +1,56 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; }
+
+.container { max-width: 1024px; margin: 0 auto; padding: 24px; }
+.header { display: flex; gap: 16px; align-items: center; margin-bottom: 18px; }
+.brand { font-weight: 900; letter-spacing: -0.2px; }
+.nav { display: flex; gap: 12px; }
+.footer { margin-top: 24px; padding-top: 16px; border-top: 1px solid #eee; }
+
+.h1 { margin: 6px 0 6px; font-size: 28px; letter-spacing: -0.2px; }
+.small { font-size: 12px; color: #6b7280; }
+.sectionTitle { font-size: 16px; font-weight: 800; margin: 18px 0 10px; }
+
+.toprow { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 14px; }
+
+.card { border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; background: #fff; }
+.meta { padding: 10px 12px; }
+.title { font-weight: 800; }
+.metaRow { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px; }
+
+.badge { display: inline-block; padding: 2px 8px; border: 1px solid #e5e7eb; border-radius: 999px; font-size: 12px; background: #fff; }
+
+.pill { display: inline-block; padding: 8px 12px; border: 1px solid #e5e7eb; border-radius: 999px; background: #fff; }
+
+.btn { padding: 8px 10px; border: 1px solid #e5e7eb; border-radius: 10px; background: #fff; cursor: pointer; }
+.btn:hover { background: #f9fafb; }
+.btn.tiny { padding: 6px 8px; border-radius: 9px; font-size: 12px; }
+
+.carouselFrame { border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; background: #fff; }
+.embla { overflow: hidden; }
+.emblaContainer { display: flex; }
+.emblaSlide { flex: 0 0 85%; padding: 14px; }
+.coverBox { position: relative; height: 280px; background: #f3f4f6; }
+.carouselControls { display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; border-top: 1px solid #eee; }
+
+.coversRow { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 6px; }
+.coverCard { min-width: 320px; }
+
+.textarea { width: 100%; min-height: 110px; padding: 10px 12px; border: 1px solid #e5e7eb; border-radius: 12px; outline: none; }
+.textarea:focus { border-color: #c7c9cf; }
+
+.row { display: flex; align-items: center; gap: 10px; margin-top: 8px; }
+
+.tracks { display: flex; flex-direction: column; gap: 10px; }
+.trackRow { border: 1px solid #e5e7eb; border-radius: 12px; padding: 10px 12px; background: #fff; }
+.trackHeader { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+.trackTitle { display: flex; align-items: center; gap: 8px; }
+.trackTextarea { min-height: 80px; margin-top: 8px; }
+
+.ratingBox { display: flex; align-items: center; gap: 6px; }
+.starBtn { border: none; background: transparent; cursor: pointer; font-size: 18px; opacity: 0.25; }
+.starBtn.on { opacity: 1; }

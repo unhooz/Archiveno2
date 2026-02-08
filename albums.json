@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "radiohead-in-rainbows",
+    "title": "In Rainbows",
+    "artist": "Radiohead",
+    "format": "LP",
+    "release_year": 2007,
+    "tags": [
+      "alternative",
+      "rock"
+    ],
+    "rating": 5,
+    "notes": "전체적으로 따뜻하고 유기적인 사운드. 밤에 듣기 좋다.",
+    "covers": [
+      "/covers/in-rainbows/front.jpg",
+      "/covers/in-rainbows/back.jpg"
+    ],
+    "tracks": [
+      {
+        "no": 1,
+        "title": "15 Step",
+        "duration": "3:57",
+        "rating": 4,
+        "notes": "리듬이 미쳤다."
+      },
+      {
+        "no": 2,
+        "title": "Bodysnatchers",
+        "duration": "4:02",
+        "rating": 5,
+        "notes": "기타 질감 최고."
+      },
+      {
+        "no": 3,
+        "title": "Nude",
+        "duration": "4:15",
+        "rating": 5,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "slug": "kendrick-lamar-damn",
+    "title": "DAMN.",
+    "artist": "Kendrick Lamar",
+    "format": "CD",
+    "release_year": 2017,
+    "tags": [
+      "hiphop"
+    ],
+    "rating": 5,
+    "notes": "구성/서사/타격감이 모두 강함.",
+    "covers": [
+      "/covers/damn/front.jpg"
+    ],
+    "tracks": [
+      {
+        "no": 1,
+        "title": "BLOOD.",
+        "duration": "1:58",
+        "rating": 4,
+        "notes": "프롤로그로 완벽."
+      },
+      {
+        "no": 2,
+        "title": "DNA.",
+        "duration": "3:05",
+        "rating": 5,
+        "notes": "에너지 폭발."
+      },
+      {
+        "no": 3,
+        "title": "YAH.",
+        "duration": "2:40",
+        "rating": 4,
+        "notes": ""
+      }
+    ]
+  }
+]
